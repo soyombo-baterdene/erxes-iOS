@@ -1,0 +1,25 @@
+mutation Login($email: String!, $password: String!) {
+    login(email: $email, password: $password) {
+        token
+        refreshToken
+    }
+}
+
+
+query CurrentUser{
+    currentUser{
+        _id
+        username
+        email
+        role
+        details {
+            avatar
+            fullName
+            position
+            
+        }
+        getNotificationByEmail
+    }
+}
+
+

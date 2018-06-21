@@ -1,0 +1,81 @@
+query Customers($page: Int, $perPage: Int, $segment: String, $tag: String, $ids: [String], $searchValue: String) {
+    customers(page: $page, perPage: $perPage, segment: $segment, tag: $tag, ids: $ids, searchValue: $searchValue) {
+        ...CustomerDetail
+    }
+}
+
+
+
+fragment CustomerDetail on Customer {
+    
+    _id
+    firstName
+    lastName
+    email
+    phone
+    isUser
+    integrationId
+    createdAt
+    remoteAddress
+    location
+    visitorContactInfo
+    customFieldsData
+    twitterData
+    facebookData
+    ownerId
+    position
+    department
+    leadStatus
+    lifecycleState
+    hasAuthority
+    description
+    doNotDisturb
+    links {
+        linkedIn
+        twitter
+        facebook
+        github
+        youtube
+        website
+        __typename
+    }
+    owner {
+        details {
+            fullName
+            __typename
+        }
+        __typename
+    }
+    tagIds
+    getTags {
+        _id
+        name
+        colorCode
+        __typename
+    }
+    __typename
+}
+
+query Companies($page: Int, $perPage: Int, $segment: String, $tag: String, $ids: [String], $searchValue: String) {
+    companies(page: $page, perPage: $perPage, segment: $segment, tag: $tag, ids: $ids, searchValue: $searchValue) {
+        ...CompanyDetail
+    }
+}
+
+fragment CompanyDetail on Company{
+    _id
+    name
+    size
+    industry
+    website
+    plan
+    customFieldsData
+    tagIds
+    getTags {
+        _id
+        name
+        colorCode
+        __typename
+    }
+    __typename
+}

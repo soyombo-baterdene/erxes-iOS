@@ -1,0 +1,27 @@
+
+query Channels{
+    channels{
+        ...ChannelDetail
+        
+    }
+}
+
+
+fragment ChannelDetail on Channel {
+    _id
+    name
+    description
+    integrationIds
+    memberIds
+    conversationCount
+    openConversationCount
+    integrations {
+        code
+        formId
+        formData
+        messengerData
+        twitterData
+        facebookData
+        uiOptions
+    }
+}

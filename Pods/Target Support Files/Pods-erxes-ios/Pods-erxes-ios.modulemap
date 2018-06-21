@@ -1,0 +1,6 @@
+framework module Pods_erxes_ios {
+  umbrella header "Pods-erxes-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

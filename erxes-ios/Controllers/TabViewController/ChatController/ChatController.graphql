@@ -1,0 +1,33 @@
+
+mutation ConversationMessageAdd($conversationId:String!, $content:String!){
+    conversationMessageAdd(conversationId:$conversationId,content:$content){
+        _id
+        
+    }
+}
+
+
+query ConversationDetail($_id: String!) {
+    conversationDetail(_id: $_id) {
+        messages{
+            ...MessageDetail
+        }
+    }
+}
+
+fragment MessageDetail on ConversationMessage {
+    
+    _id
+    content
+    attachments
+    conversationId
+    customerId
+    userId
+    createdAt
+    user {
+        username
+        email
+        role
+        getNotificationByEmail
+    }
+}

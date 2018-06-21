@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Apollo (0.8.0):
+    - Apollo/Core (= 0.8.0)
+  - Apollo/Core (0.8.0)
+  - Apollo/SQLite (0.8.0):
+    - Apollo/Core
+    - SQLite.swift (~> 0.11.4)
+  - BetterSegmentedControl (0.9)
+  - Daysquare (0.1.0)
+  - IoniconsKit (1.1.0)
+  - LiveGQL (2.0.0):
+    - SocketRocket
+  - LUNSegmentedControl (1.0.7)
+  - Popover (1.2.0)
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - Shimmer (1.0.2)
+  - SnapKit (4.0.0)
+  - SocketRocket (0.5.1)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SWRevealViewController (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Apollo
+  - Apollo/SQLite
+  - BetterSegmentedControl
+  - Daysquare
+  - IoniconsKit
+  - LiveGQL
+  - LUNSegmentedControl
+  - Popover
+  - SDWebImage
+  - Shimmer
+  - SnapKit
+  - SWRevealViewController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Apollo
+    - BetterSegmentedControl
+    - Daysquare
+    - IoniconsKit
+    - LiveGQL
+    - LUNSegmentedControl
+    - Popover
+    - SDWebImage
+    - Shimmer
+    - SnapKit
+    - SocketRocket
+    - SQLite.swift
+    - SWRevealViewController
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Apollo: 66e0f52289551545adb7ecdd994e713fdbae26eb
+  BetterSegmentedControl: 40b2b6a08bbc59663149624d1b5235efa8d43a3c
+  Daysquare: 682586c9b2a96958633e2f967a43054a718d1a09
+  IoniconsKit: 11e04bb11af3d052bcdd34a837e0421affe6f3bd
+  LiveGQL: bc97d1f0c5d70e200f27126f863e0be62e732298
+  LUNSegmentedControl: f868b1ea740f9917f05dbcb4cded85c33ec606e6
+  Popover: 28c1ac8e937ab2b3965bd2da7dd18324357abc41
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+
+PODFILE CHECKSUM: ce9dee42b2937877c33dce00df62c817c951906d
+
+COCOAPODS: 1.5.0

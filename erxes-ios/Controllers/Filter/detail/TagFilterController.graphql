@@ -1,0 +1,15 @@
+
+query tags($type: String) {
+    tags(type: $type) {
+        ...TagDetail
+    }
+}
+
+
+fragment TagDetail on Tag {
+    _id
+    name
+    type
+    colorCode
+    objectCount
+}

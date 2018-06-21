@@ -1,0 +1,131 @@
+query Conversations{
+    conversations{
+        ...ConversationDetail
+    }
+}
+
+fragment ConversationDetail on Conversation {
+    _id
+    content
+    createdAt
+    customerId
+    customer {
+        integrationId
+        firstName
+        lastName
+        email
+        phone
+        isUser
+        createdAt
+        remoteAddress
+        internalNotes
+        location
+        customFieldsData
+        messengerData
+        twitterData
+        facebookData
+        getIntegrationData
+        
+    }
+}
+
+query objects($limit: Int, $channelId: String, $status: String, $unassigned: String, $brandId: String, $tag: String, $integrationType: String, $participating: String, $starred: String, $ids: [String], $startDate: String, $endDate: String) {
+conversations(limit: $limit, channelId: $channelId, status: $status, unassigned: $unassigned, brandId: $brandId, tag: $tag, integrationType: $integrationType, participating: $participating, starred: $starred, ids: $ids, startDate: $startDate, endDate: $endDate) {
+        ...ObjectDetail
+    }
+}
+
+
+fragment ObjectDetail on Conversation{
+    _id
+    content
+    updatedAt
+    status
+    assignedUser {
+        _id
+        details {
+            avatar
+            __typename
+        }
+        __typename
+    }
+    integration {
+        _id
+        kind
+        brand {
+            _id
+            name
+            __typename
+        }
+        channels {
+            _id
+            name
+            __typename
+        }
+        __typename
+    }
+    customer {
+        _id
+        firstName
+        lastName
+        email
+        phone
+        isUser
+        visitorContactInfo
+        __typename
+    }
+    tagIds
+    tags {
+        _id
+        name
+        __typename
+    }
+    readUserIds
+    twitterData {
+        isDirectMessage
+        __typename
+    }
+    facebookData {
+        kind
+        __typename
+    }
+    __typename
+    
+}
+
+
+query conversationCounts($limit: Int, $channelId: String, $status: String, $unassigned: String, $brandId: String, $tag: String, $integrationType: String, $participating: String, $starred: String, $ids: [String]) {
+    conversationCounts(limit: $limit, channelId: $channelId, status: $status, unassigned: $unassigned, brandId: $brandId, tag: $tag, integrationType: $integrationType, participating: $participating, starred: $starred, ids: $ids)
+}
+
+query unreadCount{
+    conversationsTotalUnreadCount
+}
+
+query getLast{
+    conversationsGetLast{
+        ...ObjectDetail
+    }
+}
+
+
+mutation conversationsChangeStatus($_ids: [String]!, $status: String!) {
+    conversationsChangeStatus(_ids: $_ids, status: $status) {
+        _id
+        __typename
+    }
+}
+
+mutation conversationsAssign($conversationIds: [String]!, $assignedUserId: String) {
+    conversationsAssign(conversationIds: $conversationIds, assignedUserId: $assignedUserId) {
+        _id
+        __typename
+    }
+}
+
+
+
+
+
+
+

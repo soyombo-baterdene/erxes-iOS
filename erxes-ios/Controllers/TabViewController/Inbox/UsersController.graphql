@@ -1,0 +1,16 @@
+
+query getUsers{
+    users {
+      ...UserData
+    }
+}
+
+
+
+fragment UserData on User {
+    _id
+    details{
+        fullName
+        avatar
+    }
+}

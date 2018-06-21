@@ -1,0 +1,12 @@
+
+query Brands {
+    brands {
+        ...BrandDetail
+    }
+}
+
+fragment BrandDetail on Brand{
+    _id
+    name
+    
+}

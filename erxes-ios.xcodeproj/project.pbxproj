@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B02B95C209701A500C10A6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B02B95B209701A500C10A6E /* Extensions.swift */; };
+		9B089B3F20CA7A67003EC255 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B089B3E20CA7A67003EC255 /* avatar.png */; };
+		9B089B4120CA7EA6003EC255 /* facebook_messagetone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B089B4020CA7EA5003EC255 /* facebook_messagetone.mp3 */; };
+		9B1E939720C8D45800AC4FED /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E939620C8D45800AC4FED /* ChatController.swift */; };
+		9B1E939B20C8D8F700AC4FED /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E939A20C8D8F700AC4FED /* Route.swift */; };
+		9B1E939D20C8E34B00AC4FED /* MyAppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E939C20C8E34B00AC4FED /* MyAppNavigation.swift */; };
+		9B1E939F20C8FD1D00AC4FED /* ChatController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E939E20C8FD1D00AC4FED /* ChatController.graphql */; };
+		9B1E93A320C94D2800AC4FED /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E93A220C94D2800AC4FED /* Message.swift */; };
+		9B32D12520945AB80011262C /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B32D12420945AB80011262C /* Montserrat-Medium.otf */; };
+		9B410FAC20B29DCE00AA4A19 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B410FAB20B29DCE00AA4A19 /* FilterCell.swift */; };
+		9B576F4F20D39B7C00E70269 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B576F4E20D39B7C00E70269 /* CircleLayer.swift */; };
+		9B576F5120D3A62000E70269 /* ErxesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B576F5020D3A62000E70269 /* ErxesLoader.swift */; };
+		9B5CE65420D8DC6E003EDBF9 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CE65320D8DC6E003EDBF9 /* MyData.swift */; };
+		9B5CE65620D90846003EDBF9 /* UsersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CE65520D90846003EDBF9 /* UsersController.swift */; };
+		9B5CE65820D9088E003EDBF9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5CE65720D9088E003EDBF9 /* UserCell.swift */; };
+		9B5CE65A20D90993003EDBF9 /* UsersController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9B5CE65920D90993003EDBF9 /* UsersController.graphql */; };
+		9B6D056120AAED3F00F5D77C /* ChannelFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D056020AAED3F00F5D77C /* ChannelFilterController.swift */; };
+		9B6D056520AAF26400F5D77C /* BrandFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D056420AAF26400F5D77C /* BrandFilterController.swift */; };
+		9B82254420B7DE0300B7C16D /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82254320B7DE0300B7C16D /* SwiftHEXColors.swift */; };
+		9B82254820B7EBAE00B7C16D /* DateFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82254720B7EBAE00B7C16D /* DateFilterController.swift */; };
+		9B94F41220DB309200313543 /* KCKeyboardImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94F41120DB309200313543 /* KCKeyboardImagePickerController.swift */; };
+		9B94F41820DB59FF00313543 /* KCKeyboardImagePickerPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94F41720DB59FF00313543 /* KCKeyboardImagePickerPreviewViewController.swift */; };
+		9B94F41A20DB5A7400313543 /* KCKeyboardImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94F41920DB5A7400313543 /* KCKeyboardImagePickerView.swift */; };
+		9B94F41C20DBB48400313543 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B94F41B20DBB48400313543 /* API.swift */; };
+		9BC2D9BD20CE3F5C003ADEE7 /* FilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2D9BC20CE3F5C003ADEE7 /* FilterController.swift */; };
+		9BC2D9C120CE5F5C003ADEE7 /* CheckBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2D9C020CE5F5C003ADEE7 /* CheckBoxCell.swift */; };
+		9BC2D9C320CE5FDF003ADEE7 /* GDCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2D9C220CE5FDE003ADEE7 /* GDCheckbox.swift */; };
+		9BC2D9C520CE6CFF003ADEE7 /* ChannelFilterController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2D9C420CE6CFF003ADEE7 /* ChannelFilterController.graphql */; };
+		9BC2D9C720CE6D1C003ADEE7 /* BrandFilterController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2D9C620CE6D1C003ADEE7 /* BrandFilterController.graphql */; };
+		9BC2D9C920CE6D34003ADEE7 /* TagFilterController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9BC2D9C820CE6D34003ADEE7 /* TagFilterController.graphql */; };
+		9BDF360020D1150F004E3F44 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF35FF20D1150F004E3F44 /* ContactController.swift */; };
+		9BDF360220D12EEA004E3F44 /* ContactController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF360120D12EE9004E3F44 /* ContactController.graphql */; };
+		9BDF360420D130C3004E3F44 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF360320D130C3004E3F44 /* ContactCell.swift */; };
+		9BF5B466209989F6006CF2D3 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5B463209989F6006CF2D3 /* CloseButton.swift */; };
+		9BF5B467209989F6006CF2D3 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5B464209989F6006CF2D3 /* TagListView.swift */; };
+		9BF5B468209989F6006CF2D3 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5B465209989F6006CF2D3 /* TagView.swift */; };
+		9BFFA5F520B2D8B40029A028 /* TagFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFA5F420B2D8B40029A028 /* TagFilterController.swift */; };
+		9BFFA5F720B2D9780029A028 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFFA5F620B2D9780029A028 /* TagCell.swift */; };
+		A1E8A29429196FEA7CCAA093 /* Pods_erxes_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA776603C60496B407816DA5 /* Pods_erxes_ios.framework */; };
+		F55583A72077166E00413F6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55583A62077166E00413F6A /* AppDelegate.swift */; };
+		F55583AE2077166E00413F6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55583AD2077166E00413F6A /* Assets.xcassets */; };
+		F55583B12077166E00413F6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55583AF2077166E00413F6A /* LaunchScreen.storyboard */; };
+		F55583BB207716BB00413F6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55583BA207716BB00413F6A /* Constants.swift */; };
+		F55583BD207716F800413F6A /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55583BC207716F800413F6A /* TabController.swift */; };
+		F55583BF2077173C00413F6A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55583BE2077173C00413F6A /* NavigationController.swift */; };
+		F58F2038207B313200D8564D /* LoginController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F58F2037207B313200D8564D /* LoginController.graphql */; };
+		F58F203B207B372900D8564D /* ErxesUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F203A207B372800D8564D /* ErxesUser.swift */; };
+		F58F203D207B37F900D8564D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F203C207B37F900D8564D /* LocalAuthentication.framework */; };
+		F58F2040207B381400D8564D /* FailureAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F203E207B381400D8564D /* FailureAlert.swift */; };
+		F58F2041207B381400D8564D /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F203F207B381400D8564D /* Modal.swift */; };
+		F58F2047207B497500D8564D /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = F58F2046207B497500D8564D /* me.png */; };
+		F58F2054207B4F2C00D8564D /* InboxController.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F58F204B207B4F2900D8564D /* InboxController.graphql */; };
+		F58F205C207B4F2C00D8564D /* InboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F2053207B4F2B00D8564D /* InboxController.swift */; };
+		F58F205E207B4F4B00D8564D /* ErxesInboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F205D207B4F4B00D8564D /* ErxesInboxCell.swift */; };
+		F58F2062207B4FE900D8564D /* ErxesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F205F207B4FE800D8564D /* ErxesButton.swift */; };
+		F58F2063207B4FE900D8564D /* ErxesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F2060207B4FE800D8564D /* ErxesLabel.swift */; };
+		F58F2064207B4FE900D8564D /* ErxesField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58F2061207B4FE900D8564D /* ErxesField.swift */; };
+		F5BEE31620772C0D0042DFC2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEE31520772C0D0042DFC2 /* LoginController.swift */; };
+		F5BEE32520774ADE0042DFC2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32420774ADE0042DFC2 /* Podfile */; };
+		F5BEE327207760E10042DFC2 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEE326207760E10042DFC2 /* FormViewController.swift */; };
+		F5BEE329207761730042DFC2 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEE328207761730042DFC2 /* MyTextField.swift */; };
+		F5BEE33420776BD40042DFC2 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32B20776BD20042DFC2 /* Montserrat-Thin.ttf */; };
+		F5BEE33520776BD40042DFC2 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32C20776BD20042DFC2 /* Montserrat-Light.otf */; };
+		F5BEE33620776BD40042DFC2 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32D20776BD30042DFC2 /* Montserrat-ExtraBold.otf */; };
+		F5BEE33720776BD40042DFC2 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32E20776BD30042DFC2 /* Montserrat-UltraLight.otf */; };
+		F5BEE33820776BD40042DFC2 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE32F20776BD30042DFC2 /* Montserrat-Black.otf */; };
+		F5BEE33920776BD40042DFC2 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE33020776BD30042DFC2 /* Montserrat-Hairline.otf */; };
+		F5BEE33A20776BD40042DFC2 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE33120776BD30042DFC2 /* Montserrat-SemiBold.otf */; };
+		F5BEE33B20776BD40042DFC2 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE33220776BD40042DFC2 /* Montserrat-Bold.otf */; };
+		F5BEE33C20776BD40042DFC2 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5BEE33320776BD40042DFC2 /* Montserrat-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1363BE36104A330BAA20F107 /* Pods-NMG.CRM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMG.CRM.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMG.CRM/Pods-NMG.CRM.release.xcconfig"; sourceTree = "<group>"; };
+		1B1762419AA7B0A3A0F02580 /* Pods-erxes-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-erxes-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-erxes-ios/Pods-erxes-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		4B517246B47FE17016C552D6 /* Pods-erxes-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-erxes-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-erxes-ios/Pods-erxes-ios.release.xcconfig"; sourceTree = "<group>"; };
+		8FB018212DBB53FDAA50FCA6 /* Pods-NMG.CRM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMG.CRM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMG.CRM/Pods-NMG.CRM.debug.xcconfig"; sourceTree = "<group>"; };
+		9634C14764D6BB1A1913F342 /* Pods_NMG_CRM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMG_CRM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B02B95B209701A500C10A6E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9B089B3E20CA7A67003EC255 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		9B089B4020CA7EA5003EC255 /* facebook_messagetone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = facebook_messagetone.mp3; sourceTree = "<group>"; };
+		9B1E939620C8D45800AC4FED /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		9B1E939A20C8D8F700AC4FED /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		9B1E939C20C8E34B00AC4FED /* MyAppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppNavigation.swift; sourceTree = "<group>"; };
+		9B1E939E20C8FD1D00AC4FED /* ChatController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatController.graphql; sourceTree = "<group>"; };
+		9B1E93A220C94D2800AC4FED /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9B32D12420945AB80011262C /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		9B410FAB20B29DCE00AA4A19 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		9B576F4E20D39B7C00E70269 /* CircleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		9B576F5020D3A62000E70269 /* ErxesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErxesLoader.swift; sourceTree = "<group>"; };
+		9B5CE65320D8DC6E003EDBF9 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		9B5CE65520D90846003EDBF9 /* UsersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersController.swift; sourceTree = "<group>"; };
+		9B5CE65720D9088E003EDBF9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		9B5CE65920D90993003EDBF9 /* UsersController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = UsersController.graphql; sourceTree = "<group>"; };
+		9B6D056020AAED3F00F5D77C /* ChannelFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelFilterController.swift; sourceTree = "<group>"; };
+		9B6D056420AAF26400F5D77C /* BrandFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandFilterController.swift; sourceTree = "<group>"; };
+		9B82254320B7DE0300B7C16D /* SwiftHEXColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHEXColors.swift; sourceTree = "<group>"; };
+		9B82254720B7EBAE00B7C16D /* DateFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterController.swift; sourceTree = "<group>"; };
+		9B94F41120DB309200313543 /* KCKeyboardImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCKeyboardImagePickerController.swift; sourceTree = "<group>"; };
+		9B94F41720DB59FF00313543 /* KCKeyboardImagePickerPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCKeyboardImagePickerPreviewViewController.swift; sourceTree = "<group>"; };
+		9B94F41920DB5A7400313543 /* KCKeyboardImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCKeyboardImagePickerView.swift; sourceTree = "<group>"; };
+		9B94F41B20DBB48400313543 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = "erxes-ios/API.swift"; sourceTree = "<group>"; };
+		9BC2D9BC20CE3F5C003ADEE7 /* FilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterController.swift; sourceTree = "<group>"; };
+		9BC2D9C020CE5F5C003ADEE7 /* CheckBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCell.swift; sourceTree = "<group>"; };
+		9BC2D9C220CE5FDE003ADEE7 /* GDCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDCheckbox.swift; sourceTree = "<group>"; };
+		9BC2D9C420CE6CFF003ADEE7 /* ChannelFilterController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChannelFilterController.graphql; sourceTree = "<group>"; };
+		9BC2D9C620CE6D1C003ADEE7 /* BrandFilterController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = BrandFilterController.graphql; sourceTree = "<group>"; };
+		9BC2D9C820CE6D34003ADEE7 /* TagFilterController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = TagFilterController.graphql; sourceTree = "<group>"; };
+		9BDF35FF20D1150F004E3F44 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		9BDF360120D12EE9004E3F44 /* ContactController.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = ContactController.graphql; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.graphql; };
+		9BDF360320D130C3004E3F44 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		9BF5B463209989F6006CF2D3 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		9BF5B464209989F6006CF2D3 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		9BF5B465209989F6006CF2D3 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		9BFFA5F420B2D8B40029A028 /* TagFilterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFilterController.swift; sourceTree = "<group>"; };
+		9BFFA5F620B2D9780029A028 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		F55583A32077166E00413F6A /* erxes-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "erxes-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55583A62077166E00413F6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55583AD2077166E00413F6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55583B02077166E00413F6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55583B22077166E00413F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55583BA207716BB00413F6A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F55583BC207716F800413F6A /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		F55583BE2077173C00413F6A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F58F2037207B313200D8564D /* LoginController.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoginController.graphql; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.graphql; };
+		F58F203A207B372800D8564D /* ErxesUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesUser.swift; sourceTree = "<group>"; };
+		F58F203C207B37F900D8564D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F58F203E207B381400D8564D /* FailureAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailureAlert.swift; sourceTree = "<group>"; };
+		F58F203F207B381400D8564D /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		F58F2046207B497500D8564D /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		F58F204B207B4F2900D8564D /* InboxController.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InboxController.graphql; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.graphql; };
+		F58F2053207B4F2B00D8564D /* InboxController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxController.swift; sourceTree = "<group>"; };
+		F58F205D207B4F4B00D8564D /* ErxesInboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesInboxCell.swift; sourceTree = "<group>"; };
+		F58F205F207B4FE800D8564D /* ErxesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesButton.swift; sourceTree = "<group>"; };
+		F58F2060207B4FE800D8564D /* ErxesLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesLabel.swift; sourceTree = "<group>"; };
+		F58F2061207B4FE900D8564D /* ErxesField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErxesField.swift; sourceTree = "<group>"; };
+		F5BEE31520772C0D0042DFC2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F5BEE32420774ADE0042DFC2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5BEE326207760E10042DFC2 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		F5BEE328207761730042DFC2 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		F5BEE32B20776BD20042DFC2 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		F5BEE32C20776BD20042DFC2 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		F5BEE32D20776BD30042DFC2 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		F5BEE32E20776BD30042DFC2 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		F5BEE32F20776BD30042DFC2 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		F5BEE33020776BD30042DFC2 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		F5BEE33120776BD30042DFC2 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		F5BEE33220776BD40042DFC2 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		F5BEE33320776BD40042DFC2 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		FA776603C60496B407816DA5 /* Pods_erxes_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_erxes_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55583A02077166E00413F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58F203D207B37F900D8564D /* LocalAuthentication.framework in Frameworks */,
+				A1E8A29429196FEA7CCAA093 /* Pods_erxes_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133E159433BA7CEF780F31DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FB018212DBB53FDAA50FCA6 /* Pods-NMG.CRM.debug.xcconfig */,
+				1363BE36104A330BAA20F107 /* Pods-NMG.CRM.release.xcconfig */,
+				1B1762419AA7B0A3A0F02580 /* Pods-erxes-ios.debug.xcconfig */,
+				4B517246B47FE17016C552D6 /* Pods-erxes-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B23F9527E4F6C2FBA7439DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F58F203C207B37F900D8564D /* LocalAuthentication.framework */,
+				9634C14764D6BB1A1913F342 /* Pods_NMG_CRM.framework */,
+				FA776603C60496B407816DA5 /* Pods_erxes_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B1E939520C8D43C00AC4FED /* ChatController */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E939620C8D45800AC4FED /* ChatController.swift */,
+				9B1E939E20C8FD1D00AC4FED /* ChatController.graphql */,
+			);
+			path = ChatController;
+			sourceTree = "<group>";
+		};
+		9B35E99B20D78EF300733FAD /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEE328207761730042DFC2 /* MyTextField.swift */,
+				F58F205F207B4FE800D8564D /* ErxesButton.swift */,
+				F58F2061207B4FE900D8564D /* ErxesField.swift */,
+				F58F2060207B4FE800D8564D /* ErxesLabel.swift */,
+				9B35E99E20D78FF400733FAD /* alert */,
+				9B35E99D20D78F1700733FAD /* loader */,
+				9BF5B462209989F6006CF2D3 /* taglist */,
+				9BC2D9C220CE5FDE003ADEE7 /* GDCheckbox.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		9B35E99D20D78F1700733FAD /* loader */ = {
+			isa = PBXGroup;
+			children = (
+				9B576F4E20D39B7C00E70269 /* CircleLayer.swift */,
+				9B576F5020D3A62000E70269 /* ErxesLoader.swift */,
+			);
+			path = loader;
+			sourceTree = "<group>";
+		};
+		9B35E99E20D78FF400733FAD /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				F58F203E207B381400D8564D /* FailureAlert.swift */,
+				F58F203F207B381400D8564D /* Modal.swift */,
+			);
+			path = alert;
+			sourceTree = "<group>";
+		};
+		9B35E99F20D7902800733FAD /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				9B1E939A20C8D8F700AC4FED /* Route.swift */,
+				9B1E939C20C8E34B00AC4FED /* MyAppNavigation.swift */,
+			);
+			name = Routing;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9B35E9A020D7903C00733FAD /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				F55583BE2077173C00413F6A /* NavigationController.swift */,
+				F5BEE326207760E10042DFC2 /* FormViewController.swift */,
+			);
+			name = Abstract;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9B35E9A120D7907300733FAD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				9B02B95B209701A500C10A6E /* Extensions.swift */,
+				9B82254320B7DE0300B7C16D /* SwiftHEXColors.swift */,
+				F58F203A207B372800D8564D /* ErxesUser.swift */,
+				9B1E93A220C94D2800AC4FED /* Message.swift */,
+				9B5CE65320D8DC6E003EDBF9 /* MyData.swift */,
+			);
+			name = Global;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9B410FAA20B29DAB00AA4A19 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				9B6D056020AAED3F00F5D77C /* ChannelFilterController.swift */,
+				9BC2D9C420CE6CFF003ADEE7 /* ChannelFilterController.graphql */,
+				9B6D056420AAF26400F5D77C /* BrandFilterController.swift */,
+				9BC2D9C620CE6D1C003ADEE7 /* BrandFilterController.graphql */,
+				9BFFA5F420B2D8B40029A028 /* TagFilterController.swift */,
+				9BC2D9C820CE6D34003ADEE7 /* TagFilterController.graphql */,
+				9BFFA5F620B2D9780029A028 /* TagCell.swift */,
+				9B82254720B7EBAE00B7C16D /* DateFilterController.swift */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		9B94F41020DB305800313543 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9B35E99B20D78EF300733FAD /* UI Elements */,
+				9B94F41120DB309200313543 /* KCKeyboardImagePickerController.swift */,
+				9B94F41720DB59FF00313543 /* KCKeyboardImagePickerPreviewViewController.swift */,
+				9B94F41920DB5A7400313543 /* KCKeyboardImagePickerView.swift */,
+			);
+			name = Lib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9BC2D9BA20CE3EE9003ADEE7 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2D9BC20CE3F5C003ADEE7 /* FilterController.swift */,
+				9B410FAB20B29DCE00AA4A19 /* FilterCell.swift */,
+				9BC2D9C020CE5F5C003ADEE7 /* CheckBoxCell.swift */,
+				9B410FAA20B29DAB00AA4A19 /* detail */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		9BF5B462209989F6006CF2D3 /* taglist */ = {
+			isa = PBXGroup;
+			children = (
+				9BF5B463209989F6006CF2D3 /* CloseButton.swift */,
+				9BF5B464209989F6006CF2D3 /* TagListView.swift */,
+				9BF5B465209989F6006CF2D3 /* TagView.swift */,
+			);
+			path = taglist;
+			sourceTree = "<group>";
+		};
+		F555839A2077166E00413F6A = {
+			isa = PBXGroup;
+			children = (
+				F5BEE32420774ADE0042DFC2 /* Podfile */,
+				F55583BA207716BB00413F6A /* Constants.swift */,
+				9B94F41B20DBB48400313543 /* API.swift */,
+				F55583A62077166E00413F6A /* AppDelegate.swift */,
+				F55583A52077166E00413F6A /* erxes-ios */,
+				F55583A42077166E00413F6A /* Products */,
+				5B23F9527E4F6C2FBA7439DA /* Frameworks */,
+				133E159433BA7CEF780F31DE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F55583A42077166E00413F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55583A32077166E00413F6A /* erxes-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55583A52077166E00413F6A /* erxes-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEE31120772BCB0042DFC2 /* Controllers */,
+				9B94F41020DB305800313543 /* Lib */,
+				9B35E9A120D7907300733FAD /* Global */,
+				9B35E9A020D7903C00733FAD /* Abstract */,
+				9B35E99F20D7902800733FAD /* Routing */,
+				F55583D02077192000413F6A /* Resources */,
+				F55583AD2077166E00413F6A /* Assets.xcassets */,
+				F55583AF2077166E00413F6A /* LaunchScreen.storyboard */,
+				F55583B22077166E00413F6A /* Info.plist */,
+			);
+			path = "erxes-ios";
+			sourceTree = "<group>";
+		};
+		F55583D02077192000413F6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B089B4020CA7EA5003EC255 /* facebook_messagetone.mp3 */,
+				F5BEE32A20776BC30042DFC2 /* Fonts */,
+				9B089B3E20CA7A67003EC255 /* avatar.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F58F2048207B4DA200D8564D /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				F58F2053207B4F2B00D8564D /* InboxController.swift */,
+				F58F204B207B4F2900D8564D /* InboxController.graphql */,
+				F58F205D207B4F4B00D8564D /* ErxesInboxCell.swift */,
+				9B5CE65520D90846003EDBF9 /* UsersController.swift */,
+				9B5CE65920D90993003EDBF9 /* UsersController.graphql */,
+				9B5CE65720D9088E003EDBF9 /* UserCell.swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		F58F2049207B4DA900D8564D /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF35FF20D1150F004E3F44 /* ContactController.swift */,
+				9BDF360320D130C3004E3F44 /* ContactCell.swift */,
+				9BDF360120D12EE9004E3F44 /* ContactController.graphql */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		F58F204A207B4DB000D8564D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F5BEE31120772BCB0042DFC2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2D9BA20CE3EE9003ADEE7 /* Filter */,
+				F5BEE31D20772E900042DFC2 /* TabViewController */,
+				F5BEE31420772BF90042DFC2 /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5BEE31420772BF90042DFC2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEE31520772C0D0042DFC2 /* LoginController.swift */,
+				F58F2037207B313200D8564D /* LoginController.graphql */,
+				F58F2046207B497500D8564D /* me.png */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F5BEE31D20772E900042DFC2 /* TabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F55583BC207716F800413F6A /* TabController.swift */,
+				9B1E939520C8D43C00AC4FED /* ChatController */,
+				F58F2048207B4DA200D8564D /* Inbox */,
+				F58F2049207B4DA900D8564D /* Contact */,
+				F58F204A207B4DB000D8564D /* Settings */,
+			);
+			path = TabViewController;
+			sourceTree = "<group>";
+		};
+		F5BEE32A20776BC30042DFC2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEE32F20776BD30042DFC2 /* Montserrat-Black.otf */,
+				F5BEE33220776BD40042DFC2 /* Montserrat-Bold.otf */,
+				F5BEE32D20776BD30042DFC2 /* Montserrat-ExtraBold.otf */,
+				F5BEE33020776BD30042DFC2 /* Montserrat-Hairline.otf */,
+				F5BEE32C20776BD20042DFC2 /* Montserrat-Light.otf */,
+				F5BEE33320776BD40042DFC2 /* Montserrat-Regular.otf */,
+				F5BEE33120776BD30042DFC2 /* Montserrat-SemiBold.otf */,
+				F5BEE32B20776BD20042DFC2 /* Montserrat-Thin.ttf */,
+				F5BEE32E20776BD30042DFC2 /* Montserrat-UltraLight.otf */,
+				9B32D12420945AB80011262C /* Montserrat-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55583A22077166E00413F6A /* erxes-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55583B52077166E00413F6A /* Build configuration list for PBXNativeTarget "erxes-ios" */;
+			buildPhases = (
+				901441A5505EB5C83F9C4932 /* [CP] Check Pods Manifest.lock */,
+				F555839F2077166E00413F6A /* Sources */,
+				F55583A02077166E00413F6A /* Frameworks */,
+				F55583A12077166E00413F6A /* Resources */,
+				3405F6BD12D3D3AD2AEC9D63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "erxes-ios";
+			productName = NMG.CRM;
+			productReference = F55583A32077166E00413F6A /* erxes-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F555839B2077166E00413F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "soyombo bat-erdene";
+				TargetAttributes = {
+					F55583A22077166E00413F6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F555839E2077166E00413F6A /* Build configuration list for PBXProject "erxes-ios" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F555839A2077166E00413F6A;
+			productRefGroup = F55583A42077166E00413F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55583A22077166E00413F6A /* erxes-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55583A12077166E00413F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BEE33620776BD40042DFC2 /* Montserrat-ExtraBold.otf in Resources */,
+				F5BEE33520776BD40042DFC2 /* Montserrat-Light.otf in Resources */,
+				F5BEE33720776BD40042DFC2 /* Montserrat-UltraLight.otf in Resources */,
+				F5BEE32520774ADE0042DFC2 /* Podfile in Resources */,
+				F5BEE33820776BD40042DFC2 /* Montserrat-Black.otf in Resources */,
+				9BC2D9C720CE6D1C003ADEE7 /* BrandFilterController.graphql in Resources */,
+				F55583B12077166E00413F6A /* LaunchScreen.storyboard in Resources */,
+				9B1E939F20C8FD1D00AC4FED /* ChatController.graphql in Resources */,
+				F5BEE33920776BD40042DFC2 /* Montserrat-Hairline.otf in Resources */,
+				9BC2D9C520CE6CFF003ADEE7 /* ChannelFilterController.graphql in Resources */,
+				9B089B3F20CA7A67003EC255 /* avatar.png in Resources */,
+				9BC2D9C920CE6D34003ADEE7 /* TagFilterController.graphql in Resources */,
+				F5BEE33420776BD40042DFC2 /* Montserrat-Thin.ttf in Resources */,
+				F55583AE2077166E00413F6A /* Assets.xcassets in Resources */,
+				9BDF360220D12EEA004E3F44 /* ContactController.graphql in Resources */,
+				9B32D12520945AB80011262C /* Montserrat-Medium.otf in Resources */,
+				F5BEE33A20776BD40042DFC2 /* Montserrat-SemiBold.otf in Resources */,
+				F5BEE33B20776BD40042DFC2 /* Montserrat-Bold.otf in Resources */,
+				9B5CE65A20D90993003EDBF9 /* UsersController.graphql in Resources */,
+				9B089B4120CA7EA6003EC255 /* facebook_messagetone.mp3 in Resources */,
+				F58F2054207B4F2C00D8564D /* InboxController.graphql in Resources */,
+				F5BEE33C20776BD40042DFC2 /* Montserrat-Regular.otf in Resources */,
+				F58F2038207B313200D8564D /* LoginController.graphql in Resources */,
+				F58F2047207B497500D8564D /* me.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3405F6BD12D3D3AD2AEC9D63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-erxes-ios/Pods-erxes-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Daysquare/Daysquare.framework",
+				"${BUILT_PRODUCTS_DIR}/IoniconsKit/IoniconsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/LUNSegmentedControl/LUNSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/LiveGQL/LiveGQL.framework",
+				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Daysquare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IoniconsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LUNSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiveGQL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Popover.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Shimmer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-erxes-ios/Pods-erxes-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901441A5505EB5C83F9C4932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-erxes-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F555839F2077166E00413F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDF360420D130C3004E3F44 /* ContactCell.swift in Sources */,
+				F5BEE327207760E10042DFC2 /* FormViewController.swift in Sources */,
+				F58F2040207B381400D8564D /* FailureAlert.swift in Sources */,
+				F5BEE31620772C0D0042DFC2 /* LoginController.swift in Sources */,
+				9B94F41820DB59FF00313543 /* KCKeyboardImagePickerPreviewViewController.swift in Sources */,
+				9B82254420B7DE0300B7C16D /* SwiftHEXColors.swift in Sources */,
+				F5BEE329207761730042DFC2 /* MyTextField.swift in Sources */,
+				9B5CE65620D90846003EDBF9 /* UsersController.swift in Sources */,
+				9B1E939D20C8E34B00AC4FED /* MyAppNavigation.swift in Sources */,
+				9BF5B467209989F6006CF2D3 /* TagListView.swift in Sources */,
+				F58F2063207B4FE900D8564D /* ErxesLabel.swift in Sources */,
+				9BC2D9BD20CE3F5C003ADEE7 /* FilterController.swift in Sources */,
+				9B1E939720C8D45800AC4FED /* ChatController.swift in Sources */,
+				9B94F41A20DB5A7400313543 /* KCKeyboardImagePickerView.swift in Sources */,
+				9BFFA5F720B2D9780029A028 /* TagCell.swift in Sources */,
+				9BC2D9C320CE5FDF003ADEE7 /* GDCheckbox.swift in Sources */,
+				9BDF360020D1150F004E3F44 /* ContactController.swift in Sources */,
+				9B1E939B20C8D8F700AC4FED /* Route.swift in Sources */,
+				F58F2041207B381400D8564D /* Modal.swift in Sources */,
+				F58F2062207B4FE900D8564D /* ErxesButton.swift in Sources */,
+				F55583BD207716F800413F6A /* TabController.swift in Sources */,
+				9B94F41220DB309200313543 /* KCKeyboardImagePickerController.swift in Sources */,
+				9BF5B468209989F6006CF2D3 /* TagView.swift in Sources */,
+				9B6D056120AAED3F00F5D77C /* ChannelFilterController.swift in Sources */,
+				F55583BF2077173C00413F6A /* NavigationController.swift in Sources */,
+				F58F203B207B372900D8564D /* ErxesUser.swift in Sources */,
+				9B5CE65420D8DC6E003EDBF9 /* MyData.swift in Sources */,
+				9B410FAC20B29DCE00AA4A19 /* FilterCell.swift in Sources */,
+				F58F2064207B4FE900D8564D /* ErxesField.swift in Sources */,
+				9BC2D9C120CE5F5C003ADEE7 /* CheckBoxCell.swift in Sources */,
+				F58F205C207B4F2C00D8564D /* InboxController.swift in Sources */,
+				9B576F4F20D39B7C00E70269 /* CircleLayer.swift in Sources */,
+				F55583A72077166E00413F6A /* AppDelegate.swift in Sources */,
+				9B94F41C20DBB48400313543 /* API.swift in Sources */,
+				9B1E93A320C94D2800AC4FED /* Message.swift in Sources */,
+				9B5CE65820D9088E003EDBF9 /* UserCell.swift in Sources */,
+				9B576F5120D3A62000E70269 /* ErxesLoader.swift in Sources */,
+				9BFFA5F520B2D8B40029A028 /* TagFilterController.swift in Sources */,
+				9B82254820B7EBAE00B7C16D /* DateFilterController.swift in Sources */,
+				9B02B95C209701A500C10A6E /* Extensions.swift in Sources */,
+				F58F205E207B4F4B00D8564D /* ErxesInboxCell.swift in Sources */,
+				F55583BB207716BB00413F6A /* Constants.swift in Sources */,
+				9BF5B466209989F6006CF2D3 /* CloseButton.swift in Sources */,
+				9B6D056520AAF26400F5D77C /* BrandFilterController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F55583AF2077166E00413F6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55583B02077166E00413F6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55583B32077166E00413F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F55583B42077166E00413F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55583B62077166E00413F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B1762419AA7B0A3A0F02580 /* Pods-erxes-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 994F5XNXMN;
+				INFOPLIST_FILE = "$(SRCROOT)/erxes-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crm.nmma.co;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55583B72077166E00413F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B517246B47FE17016C552D6 /* Pods-erxes-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 994F5XNXMN;
+				INFOPLIST_FILE = "$(SRCROOT)/erxes-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = crm.nmma.co;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F555839E2077166E00413F6A /* Build configuration list for PBXProject "erxes-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55583B32077166E00413F6A /* Debug */,
+				F55583B42077166E00413F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55583B52077166E00413F6A /* Build configuration list for PBXNativeTarget "erxes-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55583B62077166E00413F6A /* Debug */,
+				F55583B72077166E00413F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F555839B2077166E00413F6A /* Project object */;
+}
