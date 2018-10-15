@@ -6,7 +6,8 @@
 [![Build Status][travis-image]][travis-url]
 
 
-![](header.png)
+<a href="https://erxes.io" target="_blank"><img src="https://imgur.com/j1dxE7Y" alt="erxes is an AI meets open source messaging platform for sales, marketing and support "></a>
+
 
 ## Features
 
